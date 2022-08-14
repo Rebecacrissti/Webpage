@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--The head tag is where any non-visible information about our page is stored-->
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Rebeca's Portfolio</title>
+   
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Josefin+Sans:300,400|Oswald:700" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--
+     This line is for making sure mobile devices will render the page and the proper size
+     and not just show a zoomed out version.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<!--
+The body is where our webpage is actually rendered. Anything inside the body tag 
+is visible to the web browser.
+-->
+<body>
+    
+    <header class="sidebar">
+        
+        <div>
+            
+            <h1><span>Rebeca</span> <br> Martin</h1>
+            
+            <img src="img/rebeca.jpg" alt="Picture of Rebeca Martin">
+        </div>
+       
+        <nav>
+            <ul>
+                
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <section id="hero" class="page">
+       
+        <div class="background spacer"></div>
+        <div>
+            <span>Welcome!</span>
+            
+            
+
+        </div>
+    </section>
+   
+    <div class="spacer"></div>
+    
+    <section id="about" class="page">
+        <h1>About Me</h1>
+        <article>
+            <img src="img/rebeca.jpg" alt="Picture of Rebeca Martin">
+            <p>Hello, my name is Rebeca.</p>
+            <p>I'm a Computer Science student at FIU, and a member of UPE, our school's largest tech organization!</p>
+            <p>I have a passion for technology, problem solving, and am naturally curious as to how things work. I'm always learning new things. When I'm not studying or working on projects, I enjoy spedning time with my cat, going to the gym, or doing outdoor activities, like going to the beach.</p>
+        </article>
+    </section>
+   
+    <section id="skills" class="page">
+       <h1>Skills</h1>
+        <ul class="list">
+            <li>
+                <p> HTML, or Hypertext Markup Language, is the fundamental building block of webpages, including this one. </p>
+                <div class="image">
+                    <img src="img/html5.png" alt="HTML5 Logo">
+                </div>
+            </li>
+            <li>
+                <p> CSS, or Cascating Style Sheet is a style sheet language used for describing the presentation of a document. It was used to stylize this site.</p>
+                <div class="image">
+                    <img src="img/css3.png" alt="CSS3 Logo">
+                </div>
+           
+            </li>
+            <li>
+                <p>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. </p>
+                <div class="image">
+                    <img src="img/react.png" alt="React Logo">
+                </div>
+            </li>
+            <li>
+                <p>Python is a general-purpose, versatile, and powerful programming language. It can be used anywhere from web development to machine learning to data science.</p>
+                <div class="image">
+                    <img src="img/Python.png" alt="Python Logo">
+                </div>
+                <li>
+                    <p>Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. </p>
+                    <div class="image">
+                        <img src="img/Java.png" alt="Java Logo">
+                    </div>
+                </li>
+        </ul>
+    </section>
+    <section id="projects" class="page">
+        <h1>Projects</h1>
+        <ul class="list">
+            <li>
+                <div class="image">
+                    <img src="img/html5.png" alt="Placeholder Image">
+                </div>
+                <p> HTML and CSS used to build portfolio website containing Home, About Me, Skills, Projects, and Education sections. </p>
+            </li>
+            <li>
+                <div class="image">
+                    <img src="img/Java.png" alt="Placeholder Image">
+                </div>
+                <p> Book Store program in OOP format that contains a Book object class and a Tester class. Uses ArrayLists to store atributes of books which can be modified by the user. </p>
+                
+            </li>
+            <li>
+                <div class="image">
+                    <img src="img/Java.png" alt="Placeholder Image">
+                </div>
+                <p> College Majors program that uses inheritance and polymorphism. Contains a parent class named Majors and subclasses which extend from Major, which are the specific majors, such as Engineering. The output of the program is the contents of the instance variables for Major and its extended classes using the overriden toString() and equals() methods.</p>
+            </li>
+            <li>
+                <div class="image">
+                    <img src="img/Java.png" alt="Placeholder Image">
+                </div>
+                <p>Dinosaur Park program that uses abstract classes and an interface. The user is presented with a menu to see the different Dinosaurs in the park.</p>
+            </li>
+            <li>
+                 <div class="image">
+                <img src="img/Java.png" alt="Placeholder Image">
+            </div>
+            <p>T.V. Show program that takes in data from a CSV file, stores it in an object called TV Shows, and sorts the data using insertion, selection, and merge sorts as well as using sequential and binary searches.</p>
+            </li>
+            <li>
+                <div class="image">
+               <img src="img/Java.png" alt="Placeholder Image">
+           </div>
+           <p>Parking garage program that uses LinkedLists, Stacks and Queues. User is assigned a decal and if they have the correct one, they are able to use the FIU parking garage. If the garage isn't full, they can park. If gararge is full, they are put in a queue until a spot becomes available.  </p>
+           </li>
+
+        
+        </ul>
+    </section>
+    <section id="education" class="page">
+        <h1>Education</h1>
+        <ul class="list">
+            <li>
+                <div>
+                    <h2>Florida International University</h2>
+                    <p>Bachelor's in Computer Science </p>
+                    <p>Expected graduation: May 2023  </p>
+                </div>
+                <div class="image">
+                    <img src="img/FIUlogo.jpg" alt="FIU Logo">
+                </div>
+            </li>
+        </ul>
+    </section>    
+</body>
+</html>
